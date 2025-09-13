@@ -12,7 +12,7 @@ function active(page) {
 	document.querySelector(page).classList.add('active')
 }
 function load(title) {
-	console,log(' is : '+title)
+	console.log(' is : '+title)
 title?title=title:title='#home'
 switch(title){
 case '#contact':
