@@ -11,7 +11,7 @@ projects.map(p=>{
     div.appendChild(title);
     div.appendChild(path);
 })
-    console.log("connect")
+    console.log(div)
     app.innerHTML = '';
     app.appendChild(div);
 }
