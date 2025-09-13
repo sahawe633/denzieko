@@ -17,7 +17,7 @@ projects.map(p=>{
 })
 export default function project(){
 // app.innerHTML = div;
-document.getElementById('app').innerHTML = div;
+document.getElementById('app').innerHTML = `<div> ${div}</div>`;
 // app.appendChild(div);
 console.log(div)
 }
