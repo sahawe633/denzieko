@@ -3,6 +3,7 @@ import about from '/page/about.js'
 import contact from '/page/contact.js'
 import style from '../style/style.js'
 import project from '/page/project.js'
+
 const navLinks = document.querySelectorAll('#navLink ul li a');
 function active(page) {
 	navLinks.forEach(link=>link.classList.remove("active"));
