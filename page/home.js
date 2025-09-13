@@ -1,4 +1,4 @@
-import carousel from '../style/carousel.js'
+// import carousel from '../style/carousel.js'
 function home(){
 	document.getElementById('app').innerHTML=
 	`<div class="container">	
