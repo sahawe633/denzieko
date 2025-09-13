@@ -1,5 +1,5 @@
 import projects from '../privat/projects.js';
-const app = document.getElementById('app');
+let app = document.getElementById('app');
 let div = '';
 projects.map(p=>{
     // let title = document.createElement('p');
