@@ -26,6 +26,7 @@ aplyCarousel();
 //       </div>`;
 },10000);
 
+}
 let aplyCarousel = () =>{
         elements.forEach((v,i)=>{
                 const el = document.querySelector("."+v);
@@ -36,6 +37,5 @@ let aplyCarousel = () =>{
         })
 }
 
-}
 
 export default carousel;
