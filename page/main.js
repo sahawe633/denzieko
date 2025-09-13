@@ -23,14 +23,14 @@ case '#about':
 about()
 active(title)
 break;
-case '#service':
-service()
-active(title)
-break;
-case '#testimony':
-testimony();
-active(title)
-break;
+// case '#service':
+// service()
+// active(title)
+// break;
+// case '#testimony':
+// testimony();
+// active(title)
+// break;
 case '#project':
 project();
 active(title);
