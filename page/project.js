@@ -12,7 +12,7 @@ projects.map(p=>{
     div.appendChild(path);
 })
 app.innerHTML = '';
-app.appendChild(div);
+// app.appendChild(div);
 console.log(app)
 }
 
