@@ -850,7 +850,7 @@ ul.nav{
  }
 
 /*// XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) { }
 
 footer{
 	background: black;
@@ -866,9 +866,4 @@ footer h1{
 footer .row{
 	justify-content: space-evenly;
 }
-
-
-
-
-
 

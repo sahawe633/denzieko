@@ -29,7 +29,7 @@ case '#testimony':
 testimony();
 active(title)
 break;
-case '#projects':
+case '#project':
 project();
 active(title);
 default:
