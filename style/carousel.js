@@ -30,7 +30,7 @@ aplyCarousel();
 let aplyCarousel = () =>{
         elements.forEach((v,i)=>{
                 const el = document.querySelector("."+v);
-                left.innerHTML = `<img src="image/${service[i].image}" alt="image1"><div class="carousel-caption">
+                v.innerHTML = `<img src="image/${service[i].image}" alt="image1"><div class="carousel-caption">
                         <h5>${service[i].title}</h5>
                         <p>${service[i].description}</p>
                       </div>`;
