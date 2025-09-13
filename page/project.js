@@ -11,6 +11,7 @@ projects.map(p=>{
     path.href=PATH+'/files/'+p.path;
     path.textContent='Download';
     img.src=PATH+'/image/'+p.img;
+    img.setAttribute('class','w_100px h_100px')
     div.appendChild(title);
     div.appendChild(path);
 })
