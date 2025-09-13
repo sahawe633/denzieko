@@ -12,7 +12,7 @@ projects.map(p=>{
     div += `
     <div>
         <p>${p.title}</p>
-        <a hreff="${path}">Download</a>
+        <a hreff="${p.path}">Download</a>
     </div>
     `
 })
