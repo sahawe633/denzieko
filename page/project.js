@@ -19,7 +19,7 @@ export default function project(){
 // app.innerHTML = div;
 document.getElementById('app').innerHTML = div;
 // app.appendChild(div);
-console.log(app)
+console.log(div)
 }
 
 // export default project();
