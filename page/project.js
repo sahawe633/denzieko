@@ -6,8 +6,8 @@ projects.map(p=>{
     let title = document.createElement('p');
     let path = document.createElement('p');
     title.textContent=p.title;
-    path.href=p.path;
     path.textContent='Download';
+    path.setAttribute('onclick',`download('../files/${p.path}',${p.path})`)
     div.appendChild(title);
     div.appendChild(path);
 })
