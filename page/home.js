@@ -6,7 +6,7 @@ function home(){
 			fauzi
 		</div>
 		<div class="pict">
-			<img src="./profil.jpg" alt="img">
+			<img src="./image/profil.jpg" alt="img">
 		</div>
 	</div>
 	<section>
@@ -14,7 +14,7 @@ function home(){
 			<div class="wrap">
 				<h1>sedikit tentang saya</h1>
 				
-					<img src="./music.jpg" alt="img">
+					<img src="./image/music.jpg" alt="img">
 					<p>
 						Saya senang mempelajari apapun, dan saya suka sekali dengan musik.
 						Banyak hal yang bisa saya pelajari dari kehidupan ini, mungkin pengalaman kamu juga bisa menjadi inspirasi dan pelajaran buat saya.
