@@ -7,10 +7,12 @@ import style from '../style/style.js'
 import project from './project.js'
 const navLinks = document.querySelectorAll('#navLink ul li a');
 function active(page) {
+	console.log('page is : '+page)
 	navLinks.forEach(link=>link.classList.remove("active"));
 	document.querySelector(page).classList.add('active')
 }
 function load(title) {
+	console,log(' is : '+title)
 title?title=title:title='#home'
 switch(title){
 case '#contact':
