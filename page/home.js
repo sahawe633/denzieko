@@ -25,6 +25,6 @@ function home(){
 		</div>	
 	</section>`
 	document.querySelector('title').innerHTML='Home';
-  carousel();
+  // carousel();
 }
 export default home;
