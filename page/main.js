@@ -32,6 +32,7 @@ break;
 case '#project':
 project();
 active(title);
+break;
 default:
 home()
 active(title)
