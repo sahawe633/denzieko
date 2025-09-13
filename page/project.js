@@ -1,6 +1,6 @@
 import projects from '../privat/projects.js';
 const app = document.getElementById('app');
-const div = '';
+let div = '';
 projects.map(p=>{
     // let title = document.createElement('p');
     // let path = document.createElement('a');
