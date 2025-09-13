@@ -59,6 +59,16 @@ function hamburger() {
 	hamburger[2].classList.toggle('lineBot')
 }
 
+const download=(url,filename)=>{
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+
+    document.body.appendChild(a);
+    a.click()
+
+    document.body.removeChild(a);
+}
 
 function sendMessage() {
 	const urlWA=`http://wa.me/6285722922775?text=from : ${phone.value} | email: ${email.value} \n hallo saya ${uname.value}, ${message.value}`

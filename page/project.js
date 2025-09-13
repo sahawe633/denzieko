@@ -11,16 +11,7 @@ projects.map(p=>{
     div.appendChild(title);
     div.appendChild(path);
 })
-const download=(url,filename)=>{
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
 
-    document.body.appendChild(a);
-    a.click()
-
-    document.body.removeChild(a);
-}
 export default function project(){
     app.innerHTML = '';
     app.appendChild(div);
