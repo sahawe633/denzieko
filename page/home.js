@@ -6,7 +6,7 @@ function home(){
 			fauzi
 		</div>
 		<div class="left_60P w_230px h240px t_0px">
-			<img src="./image/profil.jpg" alt="img">
+			<img src="../image/profil.jpg" alt="img">
 		</div>
 	</div>
 	<section>
