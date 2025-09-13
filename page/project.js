@@ -15,4 +15,4 @@ const project=()=>{
     app.appendChild(div);
 }
 
-export default project;
+export default project();

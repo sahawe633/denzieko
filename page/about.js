@@ -3,7 +3,7 @@ document.getElementById('app').innerHTML= `
 <section>
 <div class="container about" id="about">
 	<div class=" row about">
-			<img src="./image/profil.jpeg" class="" alt="fauzi">
+			<img src="../image/profil.jpeg" class="" alt="fauzi">
 			<div class="about">
 			<h1 >Fauzi Anwar</h1>
 			<h6>programer|web depelover|game depelover| freelancer</h6><hr>
