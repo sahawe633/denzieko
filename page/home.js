@@ -2,7 +2,7 @@
 function home(){
 	document.getElementById('app').innerHTML=
 	`<div class="container">	
-		<div class="d_flex position_relative left_10P top_40P font-size_5rem">
+		<div class="display_flex position_relative left_10P top_40P font-size_5rem">
 			fauzi
 		</div>
 		<div class="left_60P w_230px h240px t_0px">
@@ -10,7 +10,7 @@ function home(){
 		</div>
 	</div>
 	<section>
-		<div class="d_flex justify-content_center">
+		<div class="display_flex justify-content_center">
 			<div class="w_70P">
 				<h1>sedikit tentang saya</h1>
 				
