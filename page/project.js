@@ -11,7 +11,7 @@ projects.map(p=>{
     div.appendChild(title);
     div.appendChild(path);
 })
-app.innerHTML = '';
+app.innerHTML = div;
 // app.appendChild(div);
 console.log(app)
 }
