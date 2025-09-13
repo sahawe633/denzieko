@@ -1,4 +1,5 @@
 import projects from '../privat/projects.js';
+export default function project(){
 const app = document.getElementById('app');
 const div = document.createElement('div');
 projects.map(p=>{
@@ -10,7 +11,6 @@ projects.map(p=>{
     div.appendChild(title);
     div.appendChild(path);
 })
-export default function project(){
     console.log("connect")
     app.innerHTML = '';
     app.appendChild(div);
