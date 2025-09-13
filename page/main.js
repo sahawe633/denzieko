@@ -1,10 +1,8 @@
 import home from '/page/home.js'
 import about from '/page/about.js'
 import contact from '/page/contact.js'
-import service from '/page/service.js'
-import testimony from '/page/testimony.js'
 import style from '../style/style.js'
-import project from './project.js'
+import project from '/page/project.js'
 const navLinks = document.querySelectorAll('#navLink ul li a');
 function active(page) {
 	console.log('page is : '+page)
