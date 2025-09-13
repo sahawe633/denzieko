@@ -6,9 +6,11 @@ div.setAttribute('class','display_flex justify-content_center w_100vw h_100vh al
 projects.map(p=>{
     let title = document.createElement('p');
     let path = document.createElement('a');
+    let img = document.createElement('img');
     title.textContent=p.title;
     path.href=PATH+'/files/'+p.path;
     path.textContent='Download';
+    img.src=PATH+'/image/'+p.img;
     div.appendChild(title);
     div.appendChild(path);
 })

@@ -5,7 +5,7 @@ let projects = [
         id:'1',
         path:'squi.apk',
         description:'game mobile',
-        img:''
+        img:'squirel.png'
     }
 ]
 
