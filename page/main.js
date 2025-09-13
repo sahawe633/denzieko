@@ -3,9 +3,8 @@ import about from '/page/about.js'
 import contact from '/page/contact.js'
 import service from '/page/service.js'
 import testimony from '/page/testimony.js'
-import services from '../privat/define.js'
-import carousel from '../style/carousel.js'
 import style from '../style/style.js'
+import project from './project.js'
 const navLinks = document.querySelectorAll('#navLink ul li a');
 function active(page) {
 	navLinks.forEach(link=>link.classList.remove("active"));
@@ -30,6 +29,9 @@ case '#testimony':
 testimony();
 active(title)
 break;
+case '#projects':
+project();
+active(title);
 default:
 home()
 active(title)
