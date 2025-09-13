@@ -3,7 +3,6 @@ function home(){
 	document.getElementById('app').innerHTML=
 	`<div class="container">	
 		<div class="display_flex position_relative left_10P top_40P font-size_5rem">
-			fauzi
 		</div>
 		<div class="left_60P w_230px h240px t_0px">
 			<img src="../image/profil.jpg" alt="img">
