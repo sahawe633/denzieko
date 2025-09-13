@@ -11,9 +11,9 @@ projects.map(p=>{
     div.appendChild(title);
     div.appendChild(path);
 })
-    console.log(div)
-    app.innerHTML = '';
-    app.appendChild(div);
+app.innerHTML = '';
+app.appendChild(div);
+console.log(app)
 }
 
 // export default project();
