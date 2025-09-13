@@ -2,16 +2,16 @@
 function home(){
 	document.getElementById('app').innerHTML=
 	`<div class="container">	
-		<div class="content">
+		<div class="d_flex position_relative left_10P top_40P font-size_5rem">
 			fauzi
 		</div>
-		<div class="pict">
+		<div class="left_60P w_230px h240px t_0px">
 			<img src="./image/profil.jpg" alt="img">
 		</div>
 	</div>
 	<section>
-		<div class="wrapper">
-			<div class="wrap">
+		<div class="d_flex justify-content_center">
+			<div class="w_70P">
 				<h1>sedikit tentang saya</h1>
 				
 					<img src="./image/music.jpg" alt="img">
