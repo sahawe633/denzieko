@@ -10,10 +10,10 @@ projects.map(p=>{
     div.appendChild(title);
     div.appendChild(path);
 })
-const project=()=>{
+export default function project(){
     console.log("connect")
     app.innerHTML = '';
     app.appendChild(div);
 }
 
-export default project();
+// export default project();
