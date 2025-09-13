@@ -6,7 +6,7 @@ projects.map(p=>{
     let title = document.createElement('p');
     let path = document.createElement('a');
     title.textContent=p.title;
-    path.href='../file/'+p.path;
+    path.href='../files/'+p.path;
     path.textContent='Download';
     path.download;
     div.appendChild(title);
